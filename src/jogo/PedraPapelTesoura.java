@@ -10,7 +10,7 @@ public class PedraPapelTesoura {
     Random rand = new Random();
     int op = 0;
     do{
-      System.out.println("Qual vocÃª quer escholher:\n 1-Pedra.\n 2-Papel.\n 3-Tesoura\n sua escolha: ");
+      System.out.println("Qual você quer escholher:\n 1-Pedra.\n 2-Papel.\n 3-Tesoura\n sua escolha: ");
       op = scanner.nextInt();
       if(op != 1 & op != 2 & op != 3 ){
         System.out.println("----erro---");
